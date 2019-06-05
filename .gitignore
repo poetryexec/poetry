@@ -1,6 +1,3 @@
-﻿/.vs
-# Initially taken from Github's Python gitignore file
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -11,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+share/new/
 build/
 develop-eggs/
 dist/
@@ -41,7 +39,6 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-.nox/
 .coverage
 .coverage.*
 .cache
@@ -76,10 +73,6 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# IPython
-profile_default/
-ipython_config.py
-
 # pyenv
 .python-version
 
@@ -110,11 +103,19 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-.dmypy.json
-dmypy.json
+algorithm/config.py
+algorithm/generate_first.py
+algorithm/generate_sens.py
+algorithm/main_CT.py
+algorithm/main_JJ.py
+algorithm/main_JJJ.py
+algorithm/neighbor.txt
+algorithm/prom_inter.py
+algorithm/setting.py
+algorithm/untils.py
+outfile/out0915.csv
+share/background.zip
+share/new
+share/11
+share/background
 
-# Pyre type checker
-.pyre/
-
-#IDE
-.idea/
