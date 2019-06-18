@@ -7,7 +7,11 @@ py -m venv env
 2、激活虚拟环境
 .\env\Scripts\activate
 
-以上未添加自己的模型之前（generator 文件夹下的代码），因为在模型训练中需要安装tensorflow，所以使用anaconda + pycharm + python3.7
+以上未添加自己的模型之前（generator 文件夹下的代码），因为在模型训练中需要安装tensorflow，
+
+所以使用anaconda + pycharm + python3.7
+
+
 1、安装anaconda，pycharm
 
 2、使用pycharm打开项目文件夹sourcecode，添加一个新的anaconda虚拟环境
