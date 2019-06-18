@@ -18,7 +18,14 @@ db_database : poem   # schema
 
 5、新建schema poem
 6、python create.py  #添加系统运行需要的 table
-7、python run.py  
+
+7、安装redis并启动redis-server
+
+8、代码终端先启动celery : celery worker -A tasks --loglevel
+
+9、运行 run.py  
+
+
 
 ##九歌API使用说明
 ###九歌介绍
