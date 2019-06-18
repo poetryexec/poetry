@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d5ddc54-9200-4f82-92d7-bc761262a1d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sourcecode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetrySong/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetrySong/poem-157999.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetrySong/poem-157999.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetrySong/poem-157999.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-14999.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-14999.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-14999.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-15999.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-15999.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-15999.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-16999.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-16999.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-16999.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/dataset/poetrySong/poetrySong.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/dataset/poetryTang/poetryTang.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560774848.495997.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560825122.574965.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560825129.283838.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560825133.184715.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560825227.909491.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560825246.201896.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560825433.0233421.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560828792.2561102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560829710.861738.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560829854.5552378.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560829882.188124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560829947.285983.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560830116.227197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560830376.014084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560830382.2562282.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560843167.4930198.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560846605.211364.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560849742.6764889.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560850993.421531.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560851059.3016908.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560851074.463115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560851095.156916.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560851690.251884.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560855394.780469.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560855400.218037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560855561.784629.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560855566.053178.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/new/1560855595.47673.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/new-middle11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/new-middle2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celeryconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/celeryconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/chuchu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/cipai9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/images/logo111.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/new-middle.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/images/new-middle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images/new-middle1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/script.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1269">
+              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <folding>
+                <element signature="e#46#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generate/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="204" column="46" lean-forward="true" selection-start-line="204" selection-start-column="46" selection-end-line="204" selection-end-column="46" />
+              <folding>
+                <element signature="e#16#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index_demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="196" column="23" lean-forward="true" selection-start-line="196" selection-start-column="23" selection-end-line="196" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="486" lean-forward="true" selection-start-line="486" selection-end-line="486" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/images/new-middle.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/images/new-middle2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/images/new-middle11.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>type</find>
+      <find>new_flag</find>
+      <find>ans_tsinghua</find>
+      <find>checkpointsPath</find>
+      <find>trainDa</find>
+      <find>myUI</find>
+      <find>error</find>
+      <find>JJ_config</find>
+      <find>trainData</find>
+      <find>yan</find>
+      <find>poems</find>
+      <find>png</find>
+      <find>share</find>
+      <find>pic_share_html</find>
+      <find>pic_sha</find>
+      <find>img-responsive</find>
+      <find>poem_show</find>
+      <find>show</find>
+      <find>div_share</find>
+      <find>user_input</find>
+      <find>710</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/generate/main.py" />
+        <option value="$PROJECT_DIR$/celeryconfig.py" />
+        <option value="$PROJECT_DIR$/generate/data.py" />
+        <option value="$PROJECT_DIR$/generate/config.py" />
+        <option value="$PROJECT_DIR$/tasks.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/generate/model.py" />
+        <option value="$PROJECT_DIR$/templates/index_demo.html" />
+        <option value="$PROJECT_DIR$/templates/js/script.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="141" />
+    <option name="y" value="28" />
+    <option name="width" value="1099" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sourcecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sourcecode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sourcecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sourcecode" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sourcecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sourcecode" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="create" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sourcecode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gene_poetry" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sourcecode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gene_poetry.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sourcecode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/generate" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sourcecode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tasks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sourcecode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.tasks" />
+        <item itemvalue="Python.create" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.gene_poetry" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d5ddc54-9200-4f82-92d7-bc761262a1d9" name="Default Changelist" comment="" />
+      <created>1560613177970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560613177970</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="141" y="28" width="1099" height="877" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35992578" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40254778" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32866243" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4598726" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20408164" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40254778" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32866243" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3210191" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate/data.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate/main.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>150</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/create.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>131</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate/model.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>280</line>
+          <option name="temporary" value="true" />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate/model.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate/model.py</url>
+          <line>174</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>193</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>195</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate/model.py</url>
+          <line>151</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate/model.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate/model.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>292</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>322</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>378</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>331</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate/model.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/images/jiju1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/logo111.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/micrologo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/micrologo1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/new_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/songci.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/waiting.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/waiting1.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/九歌UI素材/bg_large.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/九歌UI素材/input-result_15.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/九歌UI素材/waiting.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/20170829-02logo清华大学V1/转曲-01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/20170829-02logo清华大学V1/转曲-01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/20170829-02logo清华大学V1/转曲-02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/20170829-02logo清华大学V1/转曲-02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/yan5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/yan5_checked.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/yan5_checked1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/chuchu.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/cangtou_checked1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/cangtou_checked.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/cangtou1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/cangtou.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/yan71.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/yan51.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/yan7_checked.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/yan7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/yan5_checked2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/input-result_15.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/frame2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="360" column="26" selection-start-line="360" selection-start-column="11" selection-end-line="360" selection-end-column="26" />
+          <folding>
+            <element signature="e#46#65#0" expanded="true" />
+            <element signature="e#2976#3314#0" />
+            <element signature="e#6113#8640#0" />
+            <element signature="e#9649#10398#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/share1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/share.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/hot words_281.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/hot words_28.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1269">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding>
+            <element signature="e#46#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgc.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="204" column="46" lean-forward="true" selection-start-line="204" selection-start-column="46" selection-end-line="204" selection-end-column="46" />
+          <folding>
+            <element signature="e#16#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3289" lean-forward="true" selection-start-line="8" selection-start-column="3289" selection-end-line="8" selection-end-column="3289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/GitHub2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/hint.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/zdialog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/tooltipster.bundle.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index_demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="196" column="23" lean-forward="true" selection-start-line="196" selection-start-column="23" selection-end-line="196" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="486" lean-forward="true" selection-start-line="486" selection-end-line="486" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/new-middle11.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/new-middle2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/new-middle.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+  </component>
+</project>

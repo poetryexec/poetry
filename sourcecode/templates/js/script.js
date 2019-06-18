@@ -474,7 +474,7 @@ function yan_clicked() {
 }
 
 function random_question() {
-    var all_questions = ['清华大学', '自强不息', '天地人', '月光', '新春', '荷塘', '友人', '离别'];
+    var all_questions = ['生机盎然', '镜花水月', '春暖花开', '月光', '新春', '荷塘', '友人', '离别'];
     while (1) {
         var r = Math.floor(Math.random() * all_questions.length);
         if ($('#user_input')[0].value != all_questions[r]) {
@@ -486,7 +486,7 @@ function random_question() {
 }
 
 function random_question2() {
-    var all_questions = ['清华大学', '自强不息', '天地人', '月光', '新春', '荷塘', '友人', '离别'];
+    var all_questions = ['江南烟雨', '镜花水月', '春暖花开', '月光', '新春', '荷塘', '友人', '离别'];
     while (1) {
         var r = Math.floor(Math.random() * all_questions.length);
         if ($('#user_input2')[0].value != all_questions[r]) {
@@ -498,7 +498,7 @@ function random_question2() {
 }
 
 function random_question3() {
-    var all_questions = ['清华大学', '自强不息'];
+    var all_questions = ['谁主沉浮', '镜花水月', '春暖花开','面朝大海'];
     while (1) {
         var r = Math.floor(Math.random() * all_questions.length);
         if ($('#user_input3')[0].value != all_questions[r]) {
@@ -511,8 +511,8 @@ function random_question3() {
 
 function show_strings(v) {
     var show = $('#poem_show');
-    show.css("width", "260px");
-    show.css("left", "245px");
+//    show.css("width", "260px");
+//    show.css("left", "245px");
     show.empty();
     var max_length = 0;
     for (var i = 0; i < v.length; i++) {

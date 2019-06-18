@@ -4,18 +4,19 @@ import celery
 import time
 import json
 import sys
-import datetime
 import random
 import os
+
+
 app = celery.Celery('tasks')
 app.config_from_object('celeryconfig')
+from generate import config, data, model
 
 myUI = None
-generater = None
+CT_generater = None
 jiju = None
 ui = None
 firstgen = None
-songci = None
 
 JJ_code = [-1, 1, 2, 4, 7, 1]
 yc = json.loads(open("yc.txt").readline())
@@ -34,12 +35,10 @@ class CallbackTask(celery.Task):
 
 @app.task(base=CallbackTask)
 def main_CT(prom_old):
-    global generater
-    if(generater == None):
-        os.chdir("/var/jiuge/PoemModelHeadFinal/")
-        sys.path.append("/var/jiuge/PoemModelHeadFinal/")
-        from get_poem import Generator
-        generater = Generator()
+    global myUI
+    if(myUI == None):
+        trainData = data.POEMS()
+        myUI = model.MODEL(trainData)
     prom = json.loads(prom_old)
     print(prom)
     # if(not prom['used'] == None):
@@ -50,36 +49,35 @@ def main_CT(prom_old):
     tmp = type_top['top']+type_top['yan']
     if(type_top['top'] == "德才兼备"):
         if(int(type_top['yan']) == 5):
-            prom_result = {"code":0, "content":"德寿同尧舜\t才名异古人\t兼之推第一\t备乐及斯民"}
+            prom_result = {"code":0, "content":"德寿同尧舜\n才名异古人\n兼之推第一\n备乐及斯民"}
             prom['result'] = prom_result
             time.sleep(random.random()*5+3)
             return json.dumps(prom)
         else:
-            prom_result = {"code":0, "content":"德寿威仪天咫尺\t才名荣耀世多时\t兼资盛事推公等\t备有新诗颂美词"}
+            prom_result = {"code":0, "content":"德寿威仪天咫尺\n才名荣耀世多时\n兼资盛事推公等\n备有新诗颂美词"}
             prom['result'] = prom_result
             time.sleep(random.random()*5+3)
             return json.dumps(prom)
     if(type_top['top'] == "任人唯贤"):
         if(int(type_top['yan']) == 7):
-            prom_result = {"code":0, "content":"任公何处问交游\t人在江南第一州\t唯有故园春色好\t贤豪相对话悠悠"}
+            prom_result = {"code":0, "content": "任公何处问交游\n人在江南第一州\n唯有故园春色好\n贤豪相对话悠悠"}
             prom['result'] = prom_result
             time.sleep(random.random()*5+3)
             return json.dumps(prom)
 
     # prom_result = 'test\ttest'
     try:
-        info, poems = generater.generate(type_top['top'].encode("utf-8"), int(type_top['yan']))
+        # info, poems = generater.generate(type_top['top'].encode("utf-8"), int(type_top['yan']))
+        poem = myUI.testHead(type_top['top'], int(type_top['yan']))
     except Exception as e:
         print( e)
-        poems = []
+        poem = ''
         info = "Error"
-    if(len(poems) == 0):
+    if(poem == ''):
         # client._db.lpush("JJ", json.dumps(prom))
         print( info)
-        poems = ['该嵌首字无法成诗','请重新输入嵌首字']
-    else:
-        poems = map(lambda x:x.decode("utf-8"), poems)
-    prom_result = {"code":0, "content":"\t".join(poems)}
+        poem = "该嵌首字无法成诗,\n请重新输入嵌首字"
+    prom_result = {"code": 0, "content": poem}
     prom['result'] = prom_result
     return json.dumps(prom)
 
@@ -132,27 +130,26 @@ def main_JJJ(prom_old):
 def main_JJ(prom_old):
     global myUI
     if(myUI == None):
-        os.chdir("/var/jiuge/JueJu/")
-        sys.path.append("/var/jiuge/JueJu/")
-        from KSModel.SampleUI import SampleUI
-        myUI = SampleUI()
+        # JJ_config = config.config(type='poetrySong')
+        trainData = data.POEMS()
+        myUI = model.MODEL(trainData)
     prom = json.loads(prom_old)
-    print(prom)
-    # if(not prom['used'] == None):
-    #     prom['result'] = json.loads(prom['used'])
-    #     prom['used'] = 'True'
-    #     return json.dumps(prom)
+    # print(prom)
     type_top = prom['type_top']
     tmp = type_top['top']+type_top['yan']
     if(tmp in yc):
+        print(tmp)
         if(yc[tmp]['type'] == type_top['type']):
-            prom_result = {"code":0, "content": "\t".join(yc[tmp]['result'][int(random.random()*5+0.01)]), "type":2}
+            prom_result = {"code":0, "content": "\n".join(yc[tmp]['result'][int(random.random()*5+0.01)]), "type":2}
             prom['result'] = prom_result
             time.sleep(random.random()*4)
             return json.dumps(prom)
     # prom_result = 'test\ttest'
     try:
-        poems, info = myUI.generate(type_top['top'].encode("utf-8"), int(type_top['yan']), 1)
+        # poems, info = myUI.generate(type_top['top'].encode("utf-8"), int(type_top['yan']), 1)
+        print("生成诗%s" %type_top['yan'])
+        poems = myUI.test(int(type_top['yan']))
+        print(poems)
     except Exception as e:
         print( e)
         poems = []
@@ -160,8 +157,8 @@ def main_JJ(prom_old):
     if(len(poems) == 0):
         # client._db.lpush("JJ", json.dumps(prom))
         print( info)
-        poems = [['该主题词无法成诗', '请重新选择主题词']]
-    prom_result = {"code": 0, "content": "\t".join(poems[0]), "type": 0}
+        poems = ["该主题词无法成诗,\n请重新选择主题词"]
+    prom_result = {"code": 0, "content": poems[0], "type": 0}
     prom['result'] = prom_result
     return json.dumps(prom)
 

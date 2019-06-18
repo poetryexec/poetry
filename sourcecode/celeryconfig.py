@@ -4,9 +4,10 @@ from kombu import Exchange
 result_serializer = 'json'
 
 
-broker_url = "amqp://jiuge:jiuge_thunlp@118.190.162.99:5672/jiugehost"
-result_backend = "amqp://guest:@localhost:5672"
-
+# broker_url = "amqp://jiuge:jiuge_thunlp@118.190.162.99:5672/jiugehost"
+# result_backend = "amqp://guest:@localhost:5672"
+broker_url = "redis://127.0.0.1:6379/0"
+result_backend = "redis://127.0.0.1:6379/0"
 task_queues = (
     Queue('JJ',  exchange=Exchange('priority', type='direct'), routing_key='JJ'),
     Queue('JJ1',  exchange=Exchange('priority', type='direct'), routing_key='JJ'),

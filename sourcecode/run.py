@@ -13,7 +13,7 @@ import qrcode
 from flask_cors import CORS
 from untils import generate_logger
 from setting import HOST_PROXY, PORT_PROXY
-
+from generate.config import *
 from tasks import *
 import celery
 from PIL import Image, ImageFont, ImageDraw
@@ -101,9 +101,9 @@ def sendProm():
         for i in s['keyword']:
             if('0' <= i <= '9' or 'a' <= i <= 'z'):
                 return json.dumps({'code':"mgc"})
-    if(s['type'] == u'SC'):
-        if(len(s['keyword'].split(" ")) > 4):
-            return json.dumps({'code':"mgc"})
+    # if(s['type'] == u'SC'):
+    #     if(len(s['keyword'].split(" ")) > 4):
+    #         return json.dumps({'code':"mgc"})
     #print(s['keyword'].encode("utf-8"))
     #for i in s['keyword'].decode("utf-8"):
         #if(not (u'\\u4e00' <= i <= u'\\u9fa5')):
@@ -156,46 +156,14 @@ def sendProm():
             # type_top = {'type':'JJ', "yan":'7', "top":'清华'}
             poem = {'user_id':s['user_id'], 'type_top':type_top}
 
-            # cursor.execute("select result from peom_map where type = %s and content = %s", (s['type'], jsom.dumps(type_top, sort_keys=True)))
-            # poem_map = cursor.fetchone()
-
-
-            # if len(poem_map) > 0:
-            #     if(random.random() > 0.6):
-            #         use_content = poem_map[int(random.random()*len(poem_map))]
-            #         poem['used'] = use_content
-            #     else:
-            #         poem['used'] = None
             cele = None
-            if(s['type'] == "JJ"):
-                if(random.random() > 0.0):
-                    print("JJ yxy")
-                    cele = main_JJ.delay(json.dumps(poem))
-                else:
-                    print("JJ yc")
-                    cele = main_JJ1.delay(json.dumps(poem))
+            if s['type'] == "JJ":
+                print("JJ yxy")
+                cele = main_JJ.delay(json.dumps(poem))
                 # print cele.id
 
             elif(s['type'] == "CT"):
                 cele = main_CT.delay(json.dumps(poem))
-            elif(s['type'] == "JJJ"):
-                cele = main_JJJ.delay(json.dumps(poem))
-            elif(s['type'] == "SC"):
-                cele = main_SC.delay(json.dumps(poem))
-            elif(s['type'] == "JueJu"):
-                words = type_top['top']
-                model, newwords = keywrapper.process(words.strip().split(" "))
-                newwords = " ".join(newwords)
-                type_top['top'] = newwords
-                yan_map = {"5":"-1","7":"0"}
-                print(model, "JueJu")
-                if(model == 'wm'):
-                    type_top['yan'] = yan_map[type_top['yan']]
-                    poem = {'user_id':s['user_id'], 'type_top':type_top}
-                    cele = main_SC.apply_async(args=[json.dumps(poem)], queue='JJ2_tencent')
-                else:
-                    poem = {'user_id':s['user_id'], 'type_top':type_top}
-                    cele = main_JJ.apply_async(args=[json.dumps(poem)], queue="JJ_tencent")
             print(cele.task_id)
 
             cursor.execute('insert into list_'+s['type']+'(id, user_id, status) values(null, %s, %s)', (s['user_id'], "PENDING"))
@@ -257,19 +225,7 @@ def getProm():
                 prom = json.loads(result.result)
                 tmp = prom['result']
                 print(prom)
-
-                if(s['type'] == "SC"):
-                    if(len(tmp['content']) == 1):
-                        ans['content'] = tmp['content'][0]
-                    else:
-                        ans['content'] = tmp['content'][0] + ['-'] + tmp['content'][1]
-                elif(s['type'] == "JueJu"):
-                    if(len(tmp['content']) == 1):
-                        ans['content'] = tmp['content'][0]
-                    else:
-                        ans['content'] = tmp['content'].split("\t")
-                else:
-                    ans['content'] = tmp['content'].split("\t")
+                ans['content'] = tmp['content'].split("\n")
 
                 if(tmp['code'] == 1):
                     ans['source'] = tmp['source']
@@ -379,7 +335,7 @@ def share1(form):
     jtype = form['type']
     tt = form['tt']
     if(len(lk) == 0):
-        lk = u'九歌作'
+        lk = u'系统作'
     # print(s)
     ideal = []
     for i in s:
@@ -402,7 +358,7 @@ def share1(form):
 @app.route('/pic_share_html/<path:name>')
 def pic_share(name):
     print(name)
-    return render_template("share.html", title = u"九歌分享", ans = '/share/new/' + name, ans1 = "/share/new/"+ name.replace(".jpg", "ew.jpg"))
+    return render_template("share.html", title = u"唐诗分享", ans = '/share/new/' + name, ans1 = "/share/new/"+ name.replace(".jpg", "ew.jpg"))
 
 @app.route('/pic_share_tsinghua/<path:name>')
 def pic_share_tsinghua(name):
@@ -419,7 +375,7 @@ def clean():
             os.remove('IdealColor/static/images/' + i)
 
 
-def add_ideal(ans, yan, jtype, tt, ideal, lk = u'九歌作'):
+def add_ideal(ans, yan, jtype, tt, ideal, lk = u'系统作'):
     im = Image.open(server_dir+'/share/old/' + str(ans) + '.jpg')
     draw = ImageDraw.Draw(im)
     # newfont = ImageFont.truetype('IdealColor/static/fonts/PingFang Heavy.ttf', 150)
@@ -504,7 +460,7 @@ if __name__ == '__main__':
     conf.read("config.cfg")
 
     if app.config['DEBUG']:
-        app.run(host="127.0.0.1", port = 5100, debug=True)
+         app.run(host="127.0.0.1", port = 5100, debug=True)
     else:
         app.run(host="0.0.0.0", port = 5100, debug=False)
     # add_ideal(1, [[u"清",u"华",u"大",u"学",u"我"] for i in range(4)], [u"清",u"华",u"大"])
