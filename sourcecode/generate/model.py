@@ -133,8 +133,8 @@ class MODEL:
                             flag = True
                             break;
                         poem += sentence
-                        # if sentenceNum%2 == 0:
-                        #     poem += '\n'
+                        if sentenceNum%2 == 0:
+                            poem += '\n'
                         sentence =''
                     x = np.array([[self.trainData.wordToID[word]]])
                     #print(word)
@@ -144,9 +144,9 @@ class MODEL:
                     continue
                 print(sentenceNum)
                 if sentenceNum < 7:
-                    poem = '\n'.join(re.split(r'[，。]', poem))
-                else:
-                    poem = '。\n'.join(re.split(r'[。]', poem))
+                    poem = '，\n'.join(re.split(r'[，]', poem))
+                # else:
+                #     poem = '。\n'.join(re.split(r'[。]', poem))
                 print(poem)
                 poems.append(poem)
             return poems
@@ -201,12 +201,13 @@ class MODEL:
                         probs2, state = sess.run([probs, finalState],
                                              feed_dict={gtX: np.array([[self.trainData.wordToID["，"]]]),
                                                         initState: state})
-                    poem += sentence
+
+                    poem += sentence +'\n'
                     if sentence[0] == characters[-1]:
                         isComplete = True
 
                 if isComplete:
-                    poem = '\n'.join(re.split(r'[，。]', poem))
+                    # poem = '\n'.join(re.split(r'[，。]', poem))
                     print(poem)
                     break
 

@@ -2,96 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d5ddc54-9200-4f82-92d7-bc761262a1d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sourcecode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetrySong/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetrySong/poem-157999.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetrySong/poem-157999.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetrySong/poem-157999.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-14999.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-14999.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-14999.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-15999.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-15999.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-15999.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-16999.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-16999.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/checkpoints/poetryTang/poetryTang-16999.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/dataset/poetrySong/poetrySong.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/dataset/poetryTang/poetryTang.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/evaluate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560774848.495997.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560825122.574965.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560825129.283838.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560825133.184715.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560825227.909491.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560825246.201896.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560825433.0233421.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560828792.2561102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560829710.861738.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560829854.5552378.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560829882.188124.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560829947.285983.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560830116.227197.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560830376.014084.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560830382.2562282.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560843167.4930198.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560846605.211364.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560849742.6764889.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560850993.421531.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560851059.3016908.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560851074.463115.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560851095.156916.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560851690.251884.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560855394.780469.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560855400.218037.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560855561.784629.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560855566.053178.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/new/1560855595.47673.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/new-middle11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/new-middle2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/celeryconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/celeryconfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/chuchu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/cipai9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/images/logo111.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/new-middle.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/images/new-middle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/images/new-middle1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/share/old/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old_new/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old_new/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old_new/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old_new/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/old_new/5.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,71 +80,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1269">
-              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-              <folding>
-                <element signature="e#46#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generate/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="204" column="46" lean-forward="true" selection-start-line="204" selection-start-column="46" selection-end-line="204" selection-end-column="46" />
-              <folding>
-                <element signature="e#16#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index_demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="196" column="23" lean-forward="true" selection-start-line="196" selection-start-column="23" selection-end-line="196" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="486" lean-forward="true" selection-start-line="486" selection-end-line="486" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/images/new-middle.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/images/new-middle2.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/images/new-middle11.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="422" column="32" lean-forward="true" selection-start-line="422" selection-start-column="32" selection-end-line="422" selection-end-column="32" />
+              <folding>
+                <element signature="e#46#65#0" expanded="true" />
+                <element signature="e#2976#3314#0" />
+                <element signature="e#6113#8640#0" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -192,6 +120,9 @@
       <find>div_share</find>
       <find>user_input</find>
       <find>710</find>
+      <find>五绝</find>
+      <find>add_ideal</find>
+      <find>(0xFF,0xFF,0xFF)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,10 +136,10 @@
         <option value="$PROJECT_DIR$/generate/data.py" />
         <option value="$PROJECT_DIR$/generate/config.py" />
         <option value="$PROJECT_DIR$/tasks.py" />
-        <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/generate/model.py" />
         <option value="$PROJECT_DIR$/templates/index_demo.html" />
         <option value="$PROJECT_DIR$/templates/js/script.js" />
+        <option value="$PROJECT_DIR$/generate/model.py" />
+        <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
   </component>
@@ -222,7 +153,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="141" />
-    <option name="y" value="28" />
+    <option name="y" value="23" />
     <option name="width" value="1099" />
     <option name="height" value="877" />
   </component>
@@ -232,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,19 +174,29 @@
             <path>
               <item name="sourcecode" type="b2602c69:ProjectViewProjectNode" />
               <item name="sourcecode" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="generate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sourcecode" type="b2602c69:ProjectViewProjectNode" />
               <item name="sourcecode" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sourcecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sourcecode" type="462c0819:PsiDirectoryNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="new" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sourcecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sourcecode" type="462c0819:PsiDirectoryNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="old" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,20 +355,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="141" y="28" width="1099" height="877" extended-state="0" />
+    <frame x="141" y="23" width="1099" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35992578" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35992578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40254778" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49426752" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32866243" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4598726" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4598726" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -553,39 +496,14 @@
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/run.py</url>
-          <line>165</line>
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/generate/model.py</url>
           <line>174</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/run.py</url>
-          <line>166</line>
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tasks.py</url>
           <line>129</line>
           <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/run.py</url>
-          <line>193</line>
-          <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/run.py</url>
-          <line>195</line>
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/run.py</url>
-          <line>161</line>
-          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/generate/model.py</url>
@@ -632,26 +550,32 @@
           <line>146</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>406</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>346</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>412</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/images/jiju1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/logo111.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/micrologo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/micrologo1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/new_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/images/songci.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/songci_checked.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/images/tsinghua.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/images/waiting.gif">
@@ -660,209 +584,179 @@
     <entry file="file://$PROJECT_DIR$/templates/images/waiting1.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/九歌UI素材/bg_large.jpg">
+    <entry file="file://$PROJECT_DIR$/templates/images/waiting3.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/九歌UI素材/input-result_15.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/九歌UI素材/waiting.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/20170829-02logo清华大学V1/转曲-01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/20170829-02logo清华大学V1/转曲-01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/20170829-02logo清华大学V1/转曲-02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/20170829-02logo清华大学V1/转曲-02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/yan5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/yan5_checked.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/yan5_checked1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/chuchu.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/cangtou_checked1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/cangtou_checked.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/cangtou1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/cangtou.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/yan71.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/yan51.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/yan7_checked.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/yan7.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/yan5_checked2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/input-result_15.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/frame2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file://$PROJECT_DIR$/templates/readme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="360" column="26" selection-start-line="360" selection-start-column="11" selection-end-line="360" selection-end-column="26" />
-          <folding>
-            <element signature="e#46#65#0" expanded="true" />
-            <element signature="e#2976#3314#0" />
-            <element signature="e#6113#8640#0" />
-            <element signature="e#9649#10398#0" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1525" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/share1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/share.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/hot words_281.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/hot words_28.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1269">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding>
-            <element signature="e#46#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mgc.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/generate/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="204" column="46" lean-forward="true" selection-start-line="204" selection-start-column="46" selection-end-line="204" selection-end-column="46" />
+        <state relative-caret-position="152">
+          <caret line="204" column="38" selection-start-line="204" selection-start-column="38" selection-end-line="204" selection-end-column="38" />
           <folding>
             <element signature="e#16#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/css/bootstrap.min.css">
+    <entry file="file:///anaconda3/envs/poetry/lib/python3.7/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3289" lean-forward="true" selection-start-line="8" selection-start-column="3289" selection-end-line="8" selection-end-column="3289" />
+        <state relative-caret-position="148">
+          <caret line="1817" selection-start-line="1817" selection-end-line="1817" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/css/GitHub2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/share/old/45.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/css/hint.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/share/old/53.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/share/old/31.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/css/zdialog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/share/old/1.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/css/tooltipster.bundle.min.css">
+    <entry file="file://$PROJECT_DIR$/share/old/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/setting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index_demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="196" column="23" lean-forward="true" selection-start-line="196" selection-start-column="23" selection-end-line="196" selection-end-column="23" />
           <folding>
-            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/share.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/new/1560855561.784629.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/new/1560933110.706624.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/new/1560932691.004561.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/new/1560931305.372247.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/new/1560931268.446912.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/new/1560931124.67438.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/new/1560930620.993782.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/new/1560933045.8380811.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/new/1560932798.4625611.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/new/1560933182.3875132.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old_new/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="486" lean-forward="true" selection-start-line="486" selection-end-line="486" />
+        <state relative-caret-position="377">
+          <caret line="414" column="36" selection-start-line="414" selection-start-column="36" selection-end-line="414" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/new-middle11.png">
+    <entry file="file://$PROJECT_DIR$/share/new/1560934628.025259.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/new-middle2.png">
+    <entry file="file://$PROJECT_DIR$/share/old/15.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/images/new-middle.png">
+    <entry file="file://$PROJECT_DIR$/share/old/17.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/14.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/13.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/16.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/19.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/18.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/old/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="422" column="32" lean-forward="true" selection-start-line="422" selection-start-column="32" selection-end-line="422" selection-end-column="32" />
+          <folding>
+            <element signature="e#46#65#0" expanded="true" />
+            <element signature="e#2976#3314#0" />
+            <element signature="e#6113#8640#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

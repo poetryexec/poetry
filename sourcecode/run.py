@@ -344,7 +344,7 @@ def share1(form):
             ideal[-1].append(j)
     print(ideal)
     # ans = get_ans(ideal)
-    ans = add_ideal(int(random.random()*55)+1, yan, jtype, tt, ideal, lk)
+    ans = add_ideal(int(random.random()*19)+1, yan, jtype, tt, ideal, lk)
     # clean()
     # print 'ans=', ans
     return ans
@@ -395,9 +395,9 @@ def add_ideal(ans, yan, jtype, tt, ideal, lk = u'系统作'):
     # print 'font', newfont
     title = ""
     if(yan == u'5'):
-        title = u'五绝'
+        title = u'五言'
     else:
-        title = u'七绝'
+        title = u'七言'
     if(jtype == u'CT'):
         title += u'︿藏头﹀'
     elif(jtype == u'JJJ'):
@@ -406,23 +406,23 @@ def add_ideal(ans, yan, jtype, tt, ideal, lk = u'系统作'):
     title += u'·' + tt
     tmp = len(title) / 2.0 * 90
     for i in range(len(title)):
-        draw.text((880, 880 + i * 90 - tmp), title[i], (0xFF,0xFF,0xFF), font=newfont)
+        draw.text((880, 880 + i * 90 - tmp), title[i], (0x00,0x00,0x00), font=newfont)
 
     py = 0
-    if(len(ideal[0]) == 7):
+    if(len(ideal[0]) > 7  and ideal[0][5] !='，'):
         for i in range(4):
             for j in range(7):
-                draw.text((720 - i * 150, 580 + j * 90), ideal[i][j], (0xFF,0xFF,0xFF), font=newfont)
+                draw.text((720 - i * 150, 580 + j * 90), ideal[i][j], (0x00,0x00,0x00), font=newfont)
     else:
         for i in range(4):
             for j in range(5):
-                draw.text((720 - i * 150, 670 + j * 90), ideal[i][j], (0xFF,0xFF,0xFF), font=newfont)
+                draw.text((720 - i * 150, 670 + j * 90), ideal[i][j], (0x00,0x00,0x00), font=newfont)
     # im.show()
     newfont = ImageFont.truetype(server_dir+'/share/font/STXINGKA.ttf', 65)
     if(lk):
         tmp = len(lk) / 2.0 * 65
         for i in range(len(lk)):
-            draw.text((130 , 980 + i * 65 - tmp), lk[i], (0xFF,0xFF,0xFF), font=newfont)
+            draw.text((130 , 980 + i * 65 - tmp), lk[i], (0x00,0x00,0x00), font=newfont)
 
     ntime = datetime.datetime.now()
     time_dy = [u'零', u'一', u'二', u'三', u'四', u'五', u'六', u'七', u'八', u'九']
@@ -446,7 +446,7 @@ def add_ideal(ans, yan, jtype, tt, ideal, lk = u'系统作'):
     time_time += u'日'
     # print(time_time)
     for i in range(len(time_time)):
-        draw.text((130 , 1145 + i * 60), time_time[i], (0xFF,0xFF,0xFF), font=newfont)
+        draw.text((130 , 1145 + i * 60), time_time[i], (0x00,0x00,0x00), font=newfont)
 
     time_str = str(time.time())
     filename = '/share/new/' + time_str + '.jpg'
