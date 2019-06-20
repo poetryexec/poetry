@@ -1,3 +1,4 @@
+
 vscode + python3.7
 
 1、添加虚拟环境env
@@ -5,6 +6,15 @@ py -m venv env
 
 2、激活虚拟环境
 .\env\Scripts\activate
+
+以上未添加自己的模型之前（generator 文件夹下的代码），因为在模型训练中需要安装tensorflow，
+
+所以使用anaconda + pycharm + python3.7
+
+
+1、安装anaconda，pycharm
+
+2、使用pycharm打开项目文件夹sourcecode，添加一个新的anaconda虚拟环境
 
 3、安装必要的package
 pip install -r requirements.txt
@@ -18,7 +28,14 @@ db_database : poem   # schema
 
 5、新建schema poem
 6、python create.py  #添加系统运行需要的 table
-7、python run.py  
+
+7、安装redis并启动redis-server
+
+8、代码终端先启动celery : celery worker -A tasks --loglevel
+
+9、运行 run.py  
+
+
 
 ##九歌API使用说明
 ###九歌介绍
