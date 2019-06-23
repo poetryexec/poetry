@@ -40,7 +40,7 @@ class MODEL:
         print("training...")
         gtX = tf.placeholder(tf.int32, shape=[self.config.batchSize, None])  # input
         gtY = tf.placeholder(tf.int32, shape=[self.config.batchSize, None])  # output
-
+    
         logits, probs, a, b, c = self.buildModel(self.trainData.wordNum, gtX)
 
         targets = tf.reshape(gtY, [-1])
@@ -86,7 +86,6 @@ class MODEL:
                     print("epoch: %d, steps: %d/%d, loss: %3f" % (epoch + 1, step + 1, epochSteps, loss))
                     if gStep % self.config.saveStep == self.config.saveStep - 1: # prevent save at the beginning
                         print("save model")
-                        saver.save(sess, os.path.join(self.config.checkpointsPath, self.config.type), global_step=gStep)
                         saver.save(sess, os.path.join(self.config.checkpointsPath, self.config.type), global_step=gStep)
 
     def probsToWord(self, weights, words):
