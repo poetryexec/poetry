@@ -10,8 +10,8 @@ import re
 from generate import config as cf
 class MODEL:
     """model class"""
-    def __init__(self, trainData, config = cf.config(type='poetrySong')):
-        self.config = config
+    def __init__(self, trainData,  type):
+        self.config = cf.config(type=type)
         self.trainData = trainData
 
     def buildModel(self, wordNum, gtX, hidden_units = 128, layers = 2):
@@ -36,6 +36,7 @@ class MODEL:
         return logits, probs, stackCell, initState, finalState
 
     def train(self, reload=True):
+        tf.reset_default_graph()
         """train model"""
         print("training...")
         gtX = tf.placeholder(tf.int32, shape=[self.config.batchSize, None])  # input
@@ -63,6 +64,19 @@ class MODEL:
 
 
         with tf.Session() as sess:
+            #
+            # # 最后初始化变量
+            # sess.run(tf.global_variables_initializer())
+            #
+            # if os.path.exists(self.config.baseCheckpointsPath):
+            #     baseCheckpoint = tf.train.get_checkpoint_state(self.config.baseCheckpointsPath)
+            #     if baseCheckpoint and baseCheckpoint.model_checkpoint_path:
+            #         tf.train.init_from_checkpoint(, assignment_map)
+            #         # 调用init_from_checkpoint方法
+            #         (assignment_map,
+            #          initialized_variable_names) = model.get_assignment_map_from_checkpoint(
+            #             trainableVariables, baseCheckpoint.model_checkpoint_path)
+            #         tf.train.init_from_checkpoint(init_checkpoint, assignment_map)
             sess.run(tf.global_variables_initializer())
             saver = tf.train.Saver()
 
@@ -77,17 +91,16 @@ class MODEL:
                     print("restored %s" % checkPoint.model_checkpoint_path)
                 else:
                     print("no checkpoint found!")
-
             for epoch in range(self.config.epochNum):
                 X, Y = self.trainData.generateBatch()
                 epochSteps = len(X) # equal to batch
                 for step, (x, y) in enumerate(zip(X, Y)):
                     a, loss, gStep = sess.run([trainOP, cost, addGlobalStep], feed_dict = {gtX:x, gtY:y})
                     print("epoch: %d, steps: %d/%d, loss: %3f" % (epoch + 1, step + 1, epochSteps, loss))
-                    if gStep % self.config.saveStep == self.config.saveStep - 1: # prevent save at the beginning
+                    if gStep % self.config.saveStep == self.config.saveStep - 1 or \
+                            ((epoch +1) % 5 == 0 and step + 1 == epochSteps): # prevent save at the beginning
                         print("save model")
                         saver.save(sess, os.path.join(self.config.checkpointsPath, self.config.type), global_step=gStep)
-
     def probsToWord(self, weights, words):
         """probs to word"""
         prefixSum = np.cumsum(weights) #prefix sum

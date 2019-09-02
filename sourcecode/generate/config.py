@@ -9,7 +9,7 @@ import time
 import collections
 
 class config(object):
-    def __init__(self,batchSize=64,learningRateBase=0.001,learningRateDecayStep=1000,learningRateDecayRate=0.95,epochNum=10,saveStep=1000,type='poetrySong',generateNum=1,trainRatio=0.8):
+    def __init__(self,batchSize=64,learningRateBase=0.001,learningRateDecayStep=1000,learningRateDecayRate=0.95,epochNum=20,saveStep=1000,type='poetrySong',generateNum=1,trainRatio=0.8):
         self.root_dir = os.path.dirname(os.path.realpath(__file__)) + "/"
         self.batchSize = batchSize
 
@@ -19,8 +19,10 @@ class config(object):
         self.epochNum = epochNum  # train epoch
         self.type = type
         self.generateNum = generateNum
-        self.trainPoems = self.root_dir + "dataset/" + self.type + "/" + self.type + ".txt" # training file location
+
+        self.trainPoems = self.root_dir + "dataset/poetryByPoet/" + self.type + ".txt" # training file location
         self.checkpointsPath = self.root_dir + "checkpoints/" + self.type  # checkpoints location
+        self.baseCheckpointsPath = self.root_dir + "checkpoints/poetryTang"  # checkpoints location
         self.saveStep = saveStep  # save model every savestep
 
         # evaluate
