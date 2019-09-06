@@ -409,12 +409,15 @@ def add_ideal(ans, yan, jtype, tt, ideal, lk = u'系统作'):
         draw.text((880, 880 + i * 90 - tmp), title[i], (0x00,0x00,0x00), font=newfont)
 
     py = 0
-    if(len(ideal[0]) > 7  and ideal[0][5] !='，'):
-        for i in min(len(ideal),4):
+    poem_len = int(len(ideal[0]))
+    print(poem_len)
+    if(poem_len > 7  and ideal[0][5] !='，'):
+
+        for i in range(min(poem_len, 4)):
             for j in range(7):
                 draw.text((720 - i * 150, 580 + j * 90), ideal[i][j], (0x00,0x00,0x00), font=newfont)
     else:
-        for i in min(len(ideal),4):
+        for i in range(min(poem_len, 4)):
             for j in range(5):
                 draw.text((720 - i * 150, 670 + j * 90), ideal[i][j], (0x00,0x00,0x00), font=newfont)
     # im.show()

@@ -10,7 +10,7 @@ import re
 from generate import config as cf
 class MODEL:
     """model class"""
-    def __init__(self, trainData, config = cf.config(type='poetrySong')):
+    def __init__(self, trainData, config = cf.config(type='poetryTang')):
         self.config = config
         self.trainData = trainData
 

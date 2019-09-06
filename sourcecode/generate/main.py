@@ -14,18 +14,18 @@ def defineArgs():
     """define args"""
     parser = argparse.ArgumentParser(description = "Chinese_poem_generator.")
     parser.add_argument("-m", "--mode", help = "select mode by 'train' or test or head",
-                        choices = ["train", "test", "head"], default = "test")
+                        choices = ["train", "test", "head"], default = "head")
     return parser.parse_args()
 
 if __name__ == "__main__":
     args = defineArgs()
-    trainData = data.POEMS(trainPoems)
+    trainData = data.POEMS()
     MCPangHu = model.MODEL(trainData)
     if args.mode == "train":
         MCPangHu.train()
     else:
         if args.mode == "test":
-            poems = MCPangHu.test()
+            poems = MCPangHu.test(7)
         else:
             characters = input("please input chinese character:")
-            poems = MCPangHu.testHead(characters)
+            poems = MCPangHu.testHead(characters, 7)

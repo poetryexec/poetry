@@ -9,7 +9,7 @@ import time
 import collections
 
 class config(object):
-    def __init__(self,batchSize=64,learningRateBase=0.001,learningRateDecayStep=1000,learningRateDecayRate=0.95,epochNum=10,saveStep=1000,type='poetrySong',generateNum=1,trainRatio=0.8):
+    def __init__(self,batchSize=64,learningRateBase=0.001,learningRateDecayStep=1000,learningRateDecayRate=0.95,epochNum=10,saveStep=1000,type='poetryTang',generateNum=1,trainRatio=0.8):
         self.root_dir = os.path.dirname(os.path.realpath(__file__)) + "/"
         self.batchSize = batchSize
 
