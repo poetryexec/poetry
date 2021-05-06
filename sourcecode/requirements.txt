@@ -9,7 +9,7 @@ Click==7.0
 colorama==0.4.1
 configparser==3.7.4
 Flask==1.0.3
-Flask-Cors==3.0.7
+Flask-Cors==3.0.9
 funcsigs==1.0.2
 gast==0.2.2
 grpcio==1.16.1
